@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "sap.translate.animal_pen",
+    "fallback": "Animal Pen"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:glow_item_frame",
+        "components": {
+            "minecraft:item_name": {
+              "translate": "sap.translate.animal_pen",
+              "fallback": "Animal Pen"
+            },
+            "minecraft:custom_data": {
+              "smithed": {
+                "ignore": {
+                  "crafting": true
+                }
+              },
+              "id": "animal_pen"
+            },
+            "minecraft:entity_data": {
+              "id": "minecraft:glow_item_frame",
+              "Tags": [
+                "sap.animal_pen"
+              ],
+              "Invisible": false,
+              "Fixed": true
+            },
+            "minecraft:item_model": "sap:animal_pen",
+            "lore": [
+              {
+                "text": "Simpel Animal Pens",
+                "color": "blue"
+              }
+            ]
+          
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "sap.translate.menu.pen.description",
+        "fallback": "The Animal Pen is the block that let you place the animal jar in the world, just place the pen in the world and right click on it with jar full of animals. you can break the pen with axe and can kill,breed or interact with the stored animals like they in the world"
+      }
+    }
+  ]
+}

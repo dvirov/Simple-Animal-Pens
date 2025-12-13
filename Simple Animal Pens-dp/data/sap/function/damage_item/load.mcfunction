@@ -1,0 +1,1 @@
+scoreboard objectives add sap.item_damage dummy

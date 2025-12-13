@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "sap.translate.animal_jar",
+    "fallback": "Animal Jar"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+          "max_stack_size": 1,
+          "minecraft:item_name": {
+            "translate": "sap.translate.animal_jar",
+            "fallback": "Animal Jar"
+          },
+          "item_model": "sap:animal_jar",
+          "minecraft:custom_data": {
+            "smithed": {
+              "ignore": {
+                "crafting": true
+              }
+            },
+            "id": "animal_jar",
+            "jar_data": {
+              "mob_id": "empty",
+              "variant": "empty",
+              "color": "none",
+              "count": 0,
+              "breed_cooldown": 0,
+              "function_cooldown": 0
+            }
+          },
+          "minecraft:consumable": {
+            "consume_seconds": 99999,
+            "has_consume_particles": false
+          },
+          "minecraft:food": {
+            "nutrition": 0,
+            "saturation": 0,
+            "can_always_eat": true
+          },
+          "minecraft:lore": [
+            {
+              "translate": "Empty",
+              "fallback": "Empty",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": "Simpel Animal Pens",
+              "color": "blue"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "sap.translate.menu.jar.description",
+        "fallback": "The Animal jar let you collect and store animals inside it. to use it simply hold empty jar in your main hand and right click on any suitable animal, the animal will disapear and the count in the jar will rise by 1"
+      }
+    }
+  ]
+}

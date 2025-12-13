@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:shearing/sheep",
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_count",
+      "count": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "sap.entity_count",
+        "scale": 1
+      },
+      "add": false
+    },
+    {
+      "function": "minecraft:limit_count",
+      "limit": {
+        "min": 0,
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "max_pen_loot_modifier"
+          },
+          "score": "sap.settings",
+          "scale": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "sap.translate.menu.settings",
+    "fallback": "Simple Animal Pens Settings"
+  },
+  "external_title": {
+    "translate": "sap.translate.menu.settings",
+    "fallback": "Simple Animal Pens Settings"
+  },
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "max_loot",
+      "label": "max loot multiplier",
+      "start": 1,
+      "end": 1000,
+      "step": 1,
+      "initial": 100
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "translate": "sap.translate.menu.set_max_loot_multiplier",
+        "fallback": "Set Max loot multiplier",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "scoreboard players set max_pen_loot_modifier sap.settings $(max_loot)"
+      }
+    },
+    {
+      "label": {
+        "translate": "sap.translate.menu.reset_funciton_cooldown",
+        "fallback": "Reset Function cooldown",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard players set @e[scores={sap.function_cooldown=1..}] sap.function_cooldown 0"
+      }
+    },
+    {
+      "label": {
+        "translate": "sap.translate.menu.reset_breed_cooldown",
+        "fallback": "Reset Breeding cooldown",
+        "color": "red"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard players set @e[scores={sap.breed_cooldown=1..}] sap.breed_cooldown 0"
+      }
+    }
+  ]
+}
