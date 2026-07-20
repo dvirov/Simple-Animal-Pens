@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "loot": [],
+    "function": "sap:remove_advancement"
+  }
+}

@@ -13,3 +13,4 @@ data modify storage sap:tmp tmp.color set from entity @s RabbitType
 data modify storage remove_namespace:main input set from storage sap:tmp tmp.mob_id
 function sap:remove_namespace/1
 data modify storage sap:tmp tmp.type set from storage remove_namespace:main output
+

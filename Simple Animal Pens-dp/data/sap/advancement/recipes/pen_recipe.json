@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hay_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:hay_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sap:animal_pen_oak"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hay_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sap:animal_pen_oak",
+      "sap:animal_pen_birch",
+      "sap:animal_pen_spruce",
+      "sap:animal_pen_jungle",
+      "sap:animal_pen_acacia",
+      "sap:animal_pen_mangrove",
+      "sap:animal_pen_dark_oak",
+      "sap:animal_pen_cherry",
+      "sap:animal_pen_pale_oak",
+      "sap:animal_pen_bamboo",
+      "sap:animal_pen_crimson",
+      "sap:animal_pen_warped",
+      "sap:animal_pen_poplar"
+    ]
+  }
+}

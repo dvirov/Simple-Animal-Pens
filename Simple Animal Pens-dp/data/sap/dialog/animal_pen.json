@@ -27,13 +27,13 @@
               "Tags": [
                 "sap.animal_pen"
               ],
-              "Invisible": false,
+              "Invisible": true,
               "Fixed": true
             },
             "minecraft:item_model": "sap:animal_pen",
             "lore": [
               {
-                "text": "Simpel Animal Pens",
+                "text": "Simple Animal Pens",
                 "color": "blue"
               }
             ]

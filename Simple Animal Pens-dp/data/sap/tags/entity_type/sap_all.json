@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#sap:fit_in_jar",
+        "interaction",
+        "item_display",
+        "block_display",
+        "text_display"
+    ]
+}

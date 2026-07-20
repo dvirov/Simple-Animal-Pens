@@ -1,9 +1,9 @@
 {
   "id":"simple-animal-pens",
     "pack": {
-    "description": "Simple Animal Pens By dvirov v1.0",
+    "description": "Simple Animal Pens By dvirov v1.0.1",
     "min_format": [88,0],
-    "max_format": [88,0]
+    "max_format": [107,1]
     }
   }
   
