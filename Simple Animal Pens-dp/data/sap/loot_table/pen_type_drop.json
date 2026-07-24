@@ -1,0 +1,343 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_oak",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_oak"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_birch",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_birch"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_spruce",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_spruce"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_jungle",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_jungle"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_acacia",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_acacia"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_dark_oak",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_dark_oak"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_mangrove",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_mangrove"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_cherry",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_cherry"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_pale_oak",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_cherry"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_crimson",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_crimson"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_warped",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_warped"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_bamboo",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_bamboo"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sap:animal_pen_poplar",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "passenger": {
+                  "slots": {
+                    "contents": {
+                      "components": {
+                        "minecraft:item_model": "sap:animal_pen_poplar"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

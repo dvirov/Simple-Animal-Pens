@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "animal_pens",
+  "pattern": [
+    "   ",
+    "F F",
+    "LHL"
+  ],
+  "key": {
+    "F": [
+      "minecraft:spruce_fence"
+    ],
+    "L": [
+      "minecraft:spruce_log"
+    ],
+    "H": [
+      "minecraft:hay_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "sap.translate.animal_pen",
+        "fallback": "Animal Pen"
+      },
+      "minecraft:custom_data": {
+        "smithed": {
+          "ignore": {
+            "crafting": true
+          }
+        },
+        "id": "animal_pen",
+        "ponder_id":"sap:animal_pen"
+
+      },
+      "minecraft:entity_data": {
+        "id": "minecraft:glow_item_frame",
+        "Tags": [
+          "sap.animal_pen",
+          "sap.spruce"
+        ],
+        "Invisible": true,
+        "Fixed": true
+      },
+      "minecraft:item_model": "sap:animal_pen_spruce",
+      "lore":[
+        {
+          "text":"Simple Animal Pens",
+          "color": "blue"
+        }
+      ]
+    },
+    "count": 1
+  }
+}

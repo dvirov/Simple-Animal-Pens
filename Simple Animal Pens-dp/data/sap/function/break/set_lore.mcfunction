@@ -35,6 +35,10 @@ $item modify entity @s contents \
       "text": "$(count)",\
       "color": "red",\
       "italic": false\
+    }],\
+    [{\
+    "text":"Simple Animal Pens",\
+    "color":"blue"\
     }]\
   ],\
   "mode": "replace_all"\

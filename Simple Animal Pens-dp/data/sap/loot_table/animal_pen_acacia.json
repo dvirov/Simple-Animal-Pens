@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "minecraft:item_name": {
+        "translate": "sap.translate.animal_pen",
+        "fallback": "Animal Pen"
+      },
+      "minecraft:custom_data": {
+        "smithed": {
+          "ignore": {
+            "crafting": true
+          }
+        },
+        "id": "animal_pen",
+        "ponder_id":"sap:animal_pen"
+      },
+      "minecraft:entity_data": {
+        "id": "minecraft:glow_item_frame",
+        "Tags": [
+          "sap.animal_pen",
+          "sap.acacia"
+        ],
+        "Invisible": true,
+        "Fixed": true
+      },
+      "minecraft:item_model": "sap:animal_pen_acacia",
+      "lore":[
+        {
+          "text":"Simple Animal Pens",
+          "color": "blue"
+        }
+      ]
+    }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

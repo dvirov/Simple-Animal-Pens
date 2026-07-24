@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "animal_pens",
   "pattern": [
     "   ",
     "F F",
@@ -8,10 +9,10 @@
   ],
   "key": {
     "F": [
-      "minecraft:oak_fence"
+      "minecraft:mangrove_fence"
     ],
     "L": [
-      "minecraft:oak_log"
+      "minecraft:mangrove_log"
     ],
     "H": [
       "minecraft:hay_block"
@@ -37,15 +38,16 @@
       "minecraft:entity_data": {
         "id": "minecraft:glow_item_frame",
         "Tags": [
-          "sap.animal_pen"
+          "sap.animal_pen",
+          "sap.mangrove"
         ],
-        "Invisible": false,
+        "Invisible": true,
         "Fixed": true
       },
-      "minecraft:item_model": "sap:animal_pen",
+      "minecraft:item_model": "sap:animal_pen_mangrove",
       "lore":[
         {
-          "text":"Simpel Animal Pens",
+          "text":"Simple Animal Pens",
           "color": "blue"
         }
       ]

@@ -1,4 +1,4 @@
-# as
+# as at player
 
 #data modify storage sap:tmp tmp set from entity @s SelectedItem.components.minecraft:custom_data.jar_data
 
@@ -27,10 +27,11 @@ data modify storage remove_namespace:main input set from storage sap:tmp tmp.var
 function sap:remove_namespace/1
 data modify storage sap:tmp tmp.variant set from storage remove_namespace:main output
 
-data modify storage sap:tmp tmp.variant set from storage sap:tmp tmp.color
+
+
+
+#error here
+
+execute unless data storage sap:tmp {tmp:{color:none}} run data modify storage sap:tmp tmp.variant set from storage sap:tmp tmp.color
 
 function sap:jar/lore with storage sap:tmp tmp
-
-
-
-
