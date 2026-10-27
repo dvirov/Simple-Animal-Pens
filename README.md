@@ -9,8 +9,6 @@ Support [Ponder lib](https://modrinth.com/datapack/ponder-lib)
 Uses [Smithed conventions](https://docs.smithed.dev/conventions/) for compatability
 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nhsLDNRMm8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ### items:
 
 - Animal jar.
