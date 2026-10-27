@@ -2,31 +2,27 @@
   "criteria": {
     "use": {
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
-                "advancements": {
-                  "sap:use_jar": false
-                },
-                "stats": [],
-                "looking_at": {
-                  "type": "#sap:fit_in_jar",
-                  "nbt": "{Invulnerable:0b}",
-                  "distance": {
-                    "absolute": {
-                      "min": 0,
-                      "max": 8.5
-                    }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "sap:use_jar": false
+              },
+              "looking_at": {
+                "minecraft:entity_type": "#sap:fit_in_jar",
+                "minecraft:nbt": "{Invulnerable:0b}",
+                "minecraft:distance": {
+                  "absolute": {
+                    "min": 0,
+                    "max": 8.5
                   }
                 }
               }
             }
           }
-        ],
+        },
         "item": {
           "items": "minecraft:poisonous_potato",
           "predicates": {

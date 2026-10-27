@@ -1,0 +1,15 @@
+
+# 1.2.0
+
+
+### updated to MC 26.3
+
+- added support for mooshroom and brown mooshroom in animal pens and suspicius stew effects
+
+
+
+
+
+
+
+

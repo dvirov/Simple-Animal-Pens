@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:andesite_wall",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "block_state": {
+                  "north": "none",
+                  "south": "none",
+                  "east": "none",
+                  "west": "none",
+                  "up": "false"
+                },
+                "item_model": "test_block",
+                "custom_data": {
+                  "custom_block": {
+                    "func_path": "sap:folder/custom_blocks/template_block"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

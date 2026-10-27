@@ -7,6 +7,7 @@
         "minecraft:chicken",
         "minecraft:turtle",
         "minecraft:bee",
-        "minecraft:rabbit"
+        "minecraft:rabbit",
+        "minecraft:mooshroom"
     ]
 }

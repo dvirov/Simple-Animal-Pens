@@ -1,0 +1,202 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": [
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:saturation",
+                  "duration": 7
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:7,id:\"minecraft:saturation\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:fire_resistance",
+                  "duration": 3
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:3,id:\"minecraft:fire_resistance\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:blindness",
+                  "duration": 11
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:220,id:\"minecraft:blindness\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:nausea",
+                  "duration": 7
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:140,id:\"minecraft:nausea\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:jump_boost",
+                  "duration": 5
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:100,id:\"minecraft:jump_boost\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:poison",
+                  "duration": 11
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:220,id:\"minecraft:poison\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:regeneration",
+                  "duration": 7
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:140,id:\"minecraft:regeneration\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": 5
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:100,id:\"minecraft:night_vision\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:weakness",
+                  "duration": 7
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:140,id:\"minecraft:weakness\"}]}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:wither",
+                  "duration": 7
+                }
+              ],
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:nbt": "{stew_effects:[{duration:140,id:\"minecraft:wither\"}]}"
+                }
+              }
+            }
+          ],
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "any_of": [
+                  "sap.mooshroom_stew_effects"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_tags": {
+                "none_of": [
+                  "sap.mooshroom_stew_effects"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

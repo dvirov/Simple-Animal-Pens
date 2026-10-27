@@ -1,6 +1,6 @@
 $item modify entity @s weapon.mainhand \
 {\
-  "function": "minecraft:set_lore",\
+  "type": "minecraft:set_lore",\
   "entity": "this",\
   "lore": [\
     [{\
