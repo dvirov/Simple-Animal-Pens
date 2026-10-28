@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "sap:jar/jar_use_cooldown"
+  }
+}

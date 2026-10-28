@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:glow_item_frame",
+          "name": "minecraft:andesite_wall",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -15,6 +15,9 @@
         "fallback": "Animal Pen"
       },
       "minecraft:custom_data": {
+        "custom_block": {
+          "func_path": "sap:place/place_farm_poplar"
+        },
         "smithed": {
           "ignore": {
             "crafting": true
@@ -23,22 +26,20 @@
         "id": "animal_pen",
         "ponder_id":"sap:animal_pen"
       },
-      "minecraft:entity_data": {
-        "id": "minecraft:glow_item_frame",
-        "Tags": [
-          "sap.animal_pen",
-          "sap.poplar"
-        ],
-        "Invisible": true,
-        "Fixed": true
-      },
       "minecraft:item_model": "sap:animal_pen_poplar",
       "lore":[
         {
           "text":"Simple Animal Pens",
           "color": "blue"
         }
-      ]
+      ],
+        "block_state": {
+                  "north": "none",
+                  "south": "none",
+                  "east": "none",
+                  "west": "none",
+                  "up": "false"
+              }
     }
             }
           ]

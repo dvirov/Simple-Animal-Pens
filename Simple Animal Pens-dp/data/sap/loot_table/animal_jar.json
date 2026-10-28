@@ -45,7 +45,7 @@
       },
       "minecraft:lore": [
         {
-          "translate": "Empty",
+          "translate": "sap.empty",
           "fallback": "Empty",
           "color": "red",
           "italic": false

@@ -2,6 +2,7 @@ function sap:remove_namespace/load
 function sap:damage_item/load
 
 scoreboard objectives add sap.value dummy
+scoreboard objectives add sap.use_cooldown dummy
 
 
 scoreboard objectives add sap.entity_count dummy

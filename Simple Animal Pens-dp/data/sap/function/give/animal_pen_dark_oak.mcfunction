@@ -1,3 +1,3 @@
-give @s minecraft:glow_item_frame[minecraft:item_name={translate:"sap.translate.animal_pen",fallback:"Animal Pen"},minecraft:custom_data={smithed:{ignore:{crafting:1b}},id:"animal_pen",ponder_id:"sap:animal_pen"},minecraft:entity_data={id:"minecraft:glow_item_frame",Tags:["sap.animal_pen","sap.dark_dark_oak"],Invisible:1b,Fixed:1b},minecraft:item_model="sap:animal_pen_dark_dark_oak",lore=[{text:"Simple Animal Pens",color:"blue"}]]
+give @s minecraft:andesite_wall[minecraft:item_name={translate:"sap.translate.animal_pen",fallback:"Animal Pen"},minecraft:custom_data={smithed:{ignore:{crafting:1b}},id:"animal_pen",ponder_id:"sap:animal_pen"},minecraft:entity_data={id:"minecraft:andesite_wall",Tags:["sap.animal_pen","sap.dark_dark_oak"],Invisible:1b,Fixed:1b},minecraft:item_model="sap:animal_pen_dark_dark_oak",lore=[{text:"Simple Animal Pens",color:"blue"}]]
 
 

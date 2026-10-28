@@ -21,16 +21,13 @@ function sap:jar/add_entity_count with storage sap:tmp tmp
 execute as @n[tag=picker_target] at @s run function sap:jar/correct_mob
 tag @s remove picker_player
 tag @e[tag=picker_target] remove picker_target
-
+############
 
 data modify storage remove_namespace:main input set from storage sap:tmp tmp.variant
 function sap:remove_namespace/1
 data modify storage sap:tmp tmp.variant set from storage remove_namespace:main output
 
 
-
-
-#error here
 
 execute unless data storage sap:tmp {tmp:{color:none}} run data modify storage sap:tmp tmp.variant set from storage sap:tmp tmp.color
 

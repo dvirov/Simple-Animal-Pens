@@ -1,23 +1,32 @@
 {
   "criteria": {
-    "example": {
-      "trigger": "minecraft:item_used_on_block",
+    "use": {
       "conditions": {
         "location": {
           "type": "minecraft:match_tool",
           "predicate": {
-            "items": "minecraft:glow_item_frame",
+            "items": "minecraft:andesite_wall",
+            "components": {
+              "minecraft:block_state": {
+                "north": "none",
+                "south": "none",
+                "east": "none",
+                "west": "none",
+                "up": "false"
+              }
+            },
             "predicates": {
               "minecraft:custom_data": {
-                "id": "animal_pen"
+                "custom_block": {}
               }
             }
           }
         }
-      }
+      },
+      "trigger": "minecraft:placed_block"
     }
   },
   "rewards": {
-    "function": "sap:place/place_main"
+    "function": "sap:folder/custom_block_place"
   }
 }

@@ -5,3 +5,4 @@ execute if data entity @s {RabbitType:2} run data modify storage sap:tmp tmp.col
 execute if data entity @s {RabbitType:3} run data modify storage sap:tmp tmp.color set value "black and white spotted"
 execute if data entity @s {RabbitType:4} run data modify storage sap:tmp tmp.color set value "cream"
 execute if data entity @s {RabbitType:5} run data modify storage sap:tmp tmp.color set value "salt and pepper"
+

@@ -8,7 +8,7 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:glow_item_frame",
+        "id": "minecraft:andesite_wall",
         "components": {
             "minecraft:item_name": {
               "translate": "sap.translate.animal_pen",
@@ -23,7 +23,7 @@
               "id": "animal_pen"
             },
             "minecraft:entity_data": {
-              "id": "minecraft:glow_item_frame",
+              "id": "minecraft:andesite_wall",
               "Tags": [
                 "sap.animal_pen"
               ],

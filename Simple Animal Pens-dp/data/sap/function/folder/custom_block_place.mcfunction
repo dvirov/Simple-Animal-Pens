@@ -1,4 +1,4 @@
-advancement revoke @s only sap:trigger/custom_block_place
+advancement revoke @s only sap:place_animal_pen
 
 
 

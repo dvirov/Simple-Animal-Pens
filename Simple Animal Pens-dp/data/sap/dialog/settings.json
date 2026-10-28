@@ -31,7 +31,7 @@
       },
       "action": {
         "type": "minecraft:dynamic/run_command",
-        "sap": "scoreboard players set max_pen_loot_modifier sap.settings $(max_loot)"
+        "template": "scoreboard players set max_pen_loot_modifier sap.settings $(max_loot)"
       }
     },
     {

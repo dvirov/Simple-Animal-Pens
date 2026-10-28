@@ -1,6 +1,11 @@
+
+execute unless data entity @s {Type:brown} run return fail
+
 particle minecraft:effect ~ ~ ~ ~ ~ ~1 0 0
 
 item modify entity @p[tag=this] weapon.mainhand sap:delete_item
+
+
 
 tag @s add sap.mooshroom_stew_effects
 execute if items entity @p[tag=this] weapon.mainhand minecraft:allium run data modify entity @s stew_effects set value [{duration:60,id:"minecraft:fire_resistance"}]
