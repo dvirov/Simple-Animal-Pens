@@ -1,7 +1,7 @@
 
 $item modify entity @s contents \
 {\
-  "function": "minecraft:set_custom_data",\
+  "type": "minecraft:set_custom_data",\
   "tag": {\
     "id": "animal_jar",\
     "jar_data": {\

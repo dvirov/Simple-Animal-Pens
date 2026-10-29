@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:shears",
+        "minecraft:bowl",
+        "minecraft:bucket",
+        "#sap:extra/brown_mooshroom_flowers"
+    ]
+}

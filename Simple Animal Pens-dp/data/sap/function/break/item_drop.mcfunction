@@ -17,5 +17,5 @@ execute store result storage sap:tmp tmp.breed_cooldown int 1 run scoreboard pla
 execute store result storage sap:tmp tmp.function_cooldown int 1 run scoreboard players get @s sap.function_cooldown
 
 
-execute as @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:custom_data":{id:animal_jar}}}}] run function sap:break/update_drop
+execute as @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:custom_data":{"id":"animal_jar"}}}}] run function sap:break/update_drop
 

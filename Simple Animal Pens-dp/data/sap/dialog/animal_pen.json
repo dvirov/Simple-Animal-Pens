@@ -8,37 +8,39 @@
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:glow_item_frame",
+        "id": "minecraft:andesite_wall",
         "components": {
-            "minecraft:item_name": {
-              "translate": "sap.translate.animal_pen",
-              "fallback": "Animal Pen"
-            },
-            "minecraft:custom_data": {
-              "smithed": {
-                "ignore": {
-                  "crafting": true
-                }
-              },
-              "id": "animal_pen"
-            },
-            "minecraft:entity_data": {
-              "id": "minecraft:glow_item_frame",
-              "Tags": [
-                "sap.animal_pen"
-              ],
-              "Invisible": true,
-              "Fixed": true
-            },
-            "minecraft:item_model": "sap:animal_pen",
-            "lore": [
-              {
-                "text": "Simple Animal Pens",
-                "color": "blue"
-              }
-            ]
-          
+      "minecraft:item_name": {
+        "translate": "sap.translate.animal_pen",
+        "fallback": "Animal Pen"
+      },
+      "minecraft:custom_data": {
+        "custom_block": {
+          "func_path": "sap:place/place_farm_oak"
+          },
+        "smithed": {
+          "ignore": {
+            "crafting": true
+          }
+        },
+        "id": "animal_pen",
+        "ponder_id":"sap:animal_pen"
+      },
+      "minecraft:item_model": "sap:animal_pen_oak",
+      "lore":[
+        {
+          "text":"Simple Animal Pens",
+          "color": "blue"
         }
+      ],
+        "block_state": {
+                  "north": "none",
+                  "south": "none",
+                  "east": "none",
+                  "west": "none",
+                  "up": "false"
+              }
+    }
       }
     },
     {

@@ -3,7 +3,6 @@
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": {},
         "item": {
           "predicates": {
             "minecraft:custom_data": {
@@ -12,8 +11,16 @@
           }
         },
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"sap.pen_is_free\"]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "sap.pen_is_free"
+              ]
+            }
+          }
         }
       }
     }

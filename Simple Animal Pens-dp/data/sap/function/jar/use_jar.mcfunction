@@ -1,5 +1,9 @@
-advancement revoke @s only sap:use_jar
 # as player
+execute if score @s sap.use_cooldown matches 1.. run return fail
+advancement revoke @s only sap:jar_use_cooldown
+scoreboard players set @s sap.use_cooldown 10
+
+
 
 scoreboard players set tmp sap.verify 0
 data remove storage sap:tmp tmp

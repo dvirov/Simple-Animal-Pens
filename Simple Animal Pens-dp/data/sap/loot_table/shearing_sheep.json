@@ -7,24 +7,23 @@
         {
           "type": "minecraft:loot_table",
           "value": "minecraft:shearing/sheep",
-          "functions": []
+          "modifier": []
         }
       ]
     }
   ],
-  "functions": [
+  "modifier": [
     {
-      "function": "minecraft:set_count",
+      "type": "minecraft:set_count",
       "count": {
         "type": "minecraft:score",
         "target": "this",
-        "score": "sap.entity_count",
-        "scale": 1
+        "score": "sap.entity_count"
       },
       "add": false
     },
     {
-      "function": "minecraft:limit_count",
+      "type": "minecraft:limit_count",
       "limit": {
         "min": 0,
         "max": {
@@ -33,8 +32,7 @@
             "type": "minecraft:fixed",
             "name": "max_pen_loot_modifier"
           },
-          "score": "sap.settings",
-          "scale": 1
+          "score": "sap.settings"
         }
       }
     }

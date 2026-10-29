@@ -3,10 +3,24 @@
     "requirement": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": {},
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player"
+          }
+        },
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"sap.pen_interaction\"]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "sap.pen_interaction"
+              ]
+            },
+            "minecraft:entity_type": "minecraft:interaction"
+          }
         }
       }
     }

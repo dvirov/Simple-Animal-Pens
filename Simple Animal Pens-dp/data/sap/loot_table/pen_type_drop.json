@@ -7,23 +7,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_oak",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_oak"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_oak"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -33,23 +31,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_birch",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_birch"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_birch"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -59,23 +55,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_spruce",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_spruce"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_spruce"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -85,23 +79,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_jungle",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_jungle"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_jungle"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -111,23 +103,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_acacia",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_acacia"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_acacia"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -137,23 +127,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_dark_oak",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_dark_oak"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_dark_oak"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -163,23 +151,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_mangrove",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_mangrove"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_mangrove"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -189,23 +175,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_cherry",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_cherry"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_cherry"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -215,23 +199,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_pale_oak",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_cherry"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_pale_oak"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -241,23 +223,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_crimson",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_crimson"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_crimson"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -267,23 +247,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_warped",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_warped"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_warped"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -293,23 +271,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_bamboo",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_bamboo"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_bamboo"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     },
@@ -319,23 +295,21 @@
         {
           "type": "minecraft:loot_table",
           "value": "sap:animal_pen_poplar",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "slots": {
-                    "contents": {
-                      "components": {
-                        "minecraft:item_model": "sap:animal_pen_poplar"
-                      }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:passenger": {
+                "minecraft:slots": {
+                  "contents": {
+                    "components": {
+                      "minecraft:item_model": "sap:animal_pen_poplar"
                     }
                   }
                 }
               }
             }
-          ]
+          }
         }
       ]
     }

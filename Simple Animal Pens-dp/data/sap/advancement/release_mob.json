@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "use": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "sap:use_jar": false
+              },
+              "input": {
+                "sneak": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "predicates": {
+            "minecraft:custom_data": {
+              "id": "animal_jar"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "rewards": {
+    "function": "sap:jar/release_mob"
+  }
+}
