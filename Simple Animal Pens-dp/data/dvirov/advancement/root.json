@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "minecraft:item_model": "dvirov:logo"
+      }
+    },
+    "title": "This pack made by dvirov",
+    "description": "Check my modrinth & youtube pages",
+    "background": "minecraft:block/redstone_ore",
+    "show_toast": false,
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

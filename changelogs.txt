@@ -1,15 +1,5 @@
 
-# 1.2.0
-
-
-### updated to MC 26.3
-
-- updated block detection method (breaks the old farm item)
-- added cooldown time for using jars
-- added support for mooshroom and brown mooshroom and suspicius stew effects
-- now you can release mobs from jars with Shift + right click 
-
-
-- some random bug fixes (hopefully)
+# 1.2.1
+- fixed some bugs and cleaned the code
 
 
